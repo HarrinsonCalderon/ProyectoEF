@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programacion\\Platzi\\Curso de Fundamentos de Entity Framework\\ProyectoEF\\ProyectoEF\\ProyectoEF.csproj": {}
+    "C:\\Users\\HAR.CALDERON\\Desktop\\proyectos platzi\\Proyecto EF\\ProyectoEF\\ProyectoEF\\ProyectoEF.csproj": {}
   },
   "projects": {
-    "D:\\Programacion\\Platzi\\Curso de Fundamentos de Entity Framework\\ProyectoEF\\ProyectoEF\\ProyectoEF.csproj": {
+    "C:\\Users\\HAR.CALDERON\\Desktop\\proyectos platzi\\Proyecto EF\\ProyectoEF\\ProyectoEF\\ProyectoEF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programacion\\Platzi\\Curso de Fundamentos de Entity Framework\\ProyectoEF\\ProyectoEF\\ProyectoEF.csproj",
+        "projectUniqueName": "C:\\Users\\HAR.CALDERON\\Desktop\\proyectos platzi\\Proyecto EF\\ProyectoEF\\ProyectoEF\\ProyectoEF.csproj",
         "projectName": "ProyectoEF",
-        "projectPath": "D:\\Programacion\\Platzi\\Curso de Fundamentos de Entity Framework\\ProyectoEF\\ProyectoEF\\ProyectoEF.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\Programacion\\Platzi\\Curso de Fundamentos de Entity Framework\\ProyectoEF\\ProyectoEF\\obj\\",
+        "projectPath": "C:\\Users\\HAR.CALDERON\\Desktop\\proyectos platzi\\Proyecto EF\\ProyectoEF\\ProyectoEF\\ProyectoEF.csproj",
+        "packagesPath": "C:\\Users\\HAR.CALDERON\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HAR.CALDERON\\Desktop\\proyectos platzi\\Proyecto EF\\ProyectoEF\\ProyectoEF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HAR.CALDERON\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,20 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
