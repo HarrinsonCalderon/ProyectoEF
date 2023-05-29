@@ -84,3 +84,39 @@ C:\Users\HAR.CALDERON\Desktop\proyectos platzi\Proyecto EF\ProyectoEF\ProyectoEF
 C:\Users\HAR.CALDERON\Desktop\proyectos platzi\Proyecto EF\ProyectoEF\ProyectoEF\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\HAR.CALDERON\Desktop\proyectos platzi\Proyecto EF\ProyectoEF\ProyectoEF\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\HAR.CALDERON\Desktop\proyectos platzi\Proyecto EF\ProyectoEF\ProyectoEF\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Programacion\Platzi\Curso de Fundamentos de Entity Framework\ProyectoEF\ProyectoEF\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Programacion\Platzi\Curso de Fundamentos de Entity Framework\ProyectoEF\ProyectoEF\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Programacion\Platzi\Curso de Fundamentos de Entity Framework\ProyectoEF\ProyectoEF\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Programacion\Platzi\Curso de Fundamentos de Entity Framework\ProyectoEF\ProyectoEF\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\Programacion\Platzi\Curso de Fundamentos de Entity Framework\ProyectoEF\ProyectoEF\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Programacion\Platzi\Curso de Fundamentos de Entity Framework\ProyectoEF\ProyectoEF\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Programacion\Platzi\Curso de Fundamentos de Entity Framework\ProyectoEF\ProyectoEF\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Programacion\Platzi\Curso de Fundamentos de Entity Framework\ProyectoEF\ProyectoEF\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Programacion\Platzi\Curso de Fundamentos de Entity Framework\ProyectoEF\ProyectoEF\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Programacion\Platzi\Curso de Fundamentos de Entity Framework\ProyectoEF\ProyectoEF\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Programacion\Platzi\Curso de Fundamentos de Entity Framework\ProyectoEF\ProyectoEF\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Programacion\Platzi\Curso de Fundamentos de Entity Framework\ProyectoEF\ProyectoEF\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Programacion\Platzi\Curso de Fundamentos de Entity Framework\ProyectoEF\ProyectoEF\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Programacion\Platzi\Curso de Fundamentos de Entity Framework\ProyectoEF\ProyectoEF\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Programacion\Platzi\Curso de Fundamentos de Entity Framework\ProyectoEF\ProyectoEF\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Programacion\Platzi\Curso de Fundamentos de Entity Framework\ProyectoEF\ProyectoEF\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Programacion\Platzi\Curso de Fundamentos de Entity Framework\ProyectoEF\ProyectoEF\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Programacion\Platzi\Curso de Fundamentos de Entity Framework\ProyectoEF\ProyectoEF\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Programacion\Platzi\Curso de Fundamentos de Entity Framework\ProyectoEF\ProyectoEF\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Programacion\Platzi\Curso de Fundamentos de Entity Framework\ProyectoEF\ProyectoEF\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Programacion\Platzi\Curso de Fundamentos de Entity Framework\ProyectoEF\ProyectoEF\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Programacion\Platzi\Curso de Fundamentos de Entity Framework\ProyectoEF\ProyectoEF\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Programacion\Platzi\Curso de Fundamentos de Entity Framework\ProyectoEF\ProyectoEF\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Programacion\Platzi\Curso de Fundamentos de Entity Framework\ProyectoEF\ProyectoEF\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Programacion\Platzi\Curso de Fundamentos de Entity Framework\ProyectoEF\ProyectoEF\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Programacion\Platzi\Curso de Fundamentos de Entity Framework\ProyectoEF\ProyectoEF\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Programacion\Platzi\Curso de Fundamentos de Entity Framework\ProyectoEF\ProyectoEF\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Programacion\Platzi\Curso de Fundamentos de Entity Framework\ProyectoEF\ProyectoEF\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Programacion\Platzi\Curso de Fundamentos de Entity Framework\ProyectoEF\ProyectoEF\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Programacion\Platzi\Curso de Fundamentos de Entity Framework\ProyectoEF\ProyectoEF\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Programacion\Platzi\Curso de Fundamentos de Entity Framework\ProyectoEF\ProyectoEF\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Programacion\Platzi\Curso de Fundamentos de Entity Framework\ProyectoEF\ProyectoEF\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Programacion\Platzi\Curso de Fundamentos de Entity Framework\ProyectoEF\ProyectoEF\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Programacion\Platzi\Curso de Fundamentos de Entity Framework\ProyectoEF\ProyectoEF\obj\Debug\net6.0\ProyectoEF.csproj.CopyComplete
+D:\Programacion\Platzi\Curso de Fundamentos de Entity Framework\ProyectoEF\ProyectoEF\bin\Debug\net6.0\Humanizer.dll
+D:\Programacion\Platzi\Curso de Fundamentos de Entity Framework\ProyectoEF\ProyectoEF\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
