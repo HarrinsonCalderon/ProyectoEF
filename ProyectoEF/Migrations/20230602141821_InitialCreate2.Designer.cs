@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ProyectoEF;
 
@@ -11,9 +12,10 @@ using ProyectoEF;
 namespace ProyectoEF.Migrations
 {
     [DbContext(typeof(TareasContext))]
-    partial class TareasContextModelSnapshot : ModelSnapshot
+    [Migration("20230602141821_InitialCreate2")]
+    partial class InitialCreate2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -92,7 +94,7 @@ namespace ProyectoEF.Migrations
                         {
                             TareaId = new Guid("804d0754-53e7-498e-90d8-b7ccf34d7410"),
                             CategoriaId = new Guid("804d0754-53e7-498e-90d8-b7ccf34d746b"),
-                            FechaCreacion = new DateTime(2023, 6, 2, 14, 32, 19, 952, DateTimeKind.Local).AddTicks(63),
+                            FechaCreacion = new DateTime(2023, 6, 2, 9, 18, 21, 757, DateTimeKind.Local).AddTicks(9620),
                             PrioridadTarea = 1,
                             Titulo = "Pago de servicios publicos"
                         },
@@ -100,7 +102,7 @@ namespace ProyectoEF.Migrations
                         {
                             TareaId = new Guid("804d0754-53e7-498e-90d8-b7ccf34d7411"),
                             CategoriaId = new Guid("804d0754-53e7-498e-90d8-b7ccf34d7402"),
-                            FechaCreacion = new DateTime(2023, 6, 2, 14, 32, 19, 952, DateTimeKind.Local).AddTicks(99),
+                            FechaCreacion = new DateTime(2023, 6, 2, 9, 18, 21, 757, DateTimeKind.Local).AddTicks(9631),
                             PrioridadTarea = 0,
                             Titulo = "Terminar serie de Disney"
                         });

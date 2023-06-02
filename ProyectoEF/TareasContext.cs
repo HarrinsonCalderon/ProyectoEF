@@ -18,7 +18,7 @@ namespace ProyectoEF
         protected override void OnModelCreating(ModelBuilder modelBuilder) {
             //Datos iniciales a la tabla categoria
             List<Categoria> categoriasInit=new List<Categoria>();
-            categoriasInit.Add(new Categoria { CategoriaId= Guid.Parse("804d0754-53e7-498e-90d8-b7ccf34d746b"),Nombre="Actividades pendientes",Peso=20 });
+            categoriasInit.Add(new Categoria { CategoriaId= Guid.Parse("804d0754-53e7-498e-90d8-b7ccf34d746b"),Nombre="Actividades pendientes",Peso=20});
             categoriasInit.Add(new Categoria { CategoriaId = Guid.Parse("804d0754-53e7-498e-90d8-b7ccf34d7402"), Nombre = "Actividades personales", Peso = 50 });
 
             modelBuilder.Entity<Categoria>(categoria =>
@@ -30,7 +30,7 @@ namespace ProyectoEF
                 //Poniendo validaciones
                 categoria.Property(p => p.Nombre).IsRequired().HasMaxLength(150);
 
-                categoria.Property(p => p.Descripcion);
+                categoria.Property(p => p.Descripcion).IsRequired(false);
 
                 categoria.Property(p => p.Peso);
                 //Para insertar datos inciales a categoria, "semillas"
@@ -49,7 +49,7 @@ namespace ProyectoEF
                 tarea.HasOne(p => p.Categoria).WithMany(p => p.Tareas).HasForeignKey(p => p.CategoriaId);
 
                 tarea.Property(p => p.Titulo).IsRequired().HasMaxLength(200);
-                tarea.Property(p => p.Descripcion);
+                tarea.Property(p => p.Descripcion).IsRequired(false);
                 tarea.Property(p => p.PrioridadTarea);
                 tarea.Property(p => p.FechaCreacion);
                 //Para no mapear este campo

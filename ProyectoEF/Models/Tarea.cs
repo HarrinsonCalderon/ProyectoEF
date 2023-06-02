@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace ProyectoEF.Models
 {
@@ -24,6 +25,7 @@ namespace ProyectoEF.Models
         public string Resumen { get; set; }
 
         //Para hacer los saltos con las foraneas y traer la informacion de categoria, osea Categorita 1:n Tarea, con ello obtengo la categoria a la que esta enlazada esta tarea
+         
         public virtual Categoria Categoria { get; set; }
 
         

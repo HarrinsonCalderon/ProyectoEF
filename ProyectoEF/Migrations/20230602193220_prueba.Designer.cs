@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ProyectoEF;
 
@@ -11,9 +12,10 @@ using ProyectoEF;
 namespace ProyectoEF.Migrations
 {
     [DbContext(typeof(TareasContext))]
-    partial class TareasContextModelSnapshot : ModelSnapshot
+    [Migration("20230602193220_prueba")]
+    partial class prueba
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
