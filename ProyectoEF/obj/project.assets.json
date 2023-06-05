@@ -2003,19 +2003,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HAR.CALDERON\\.nuget\\packages\\": {}
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HAR.CALDERON\\Desktop\\proyectos platzi\\ProyectoEF\\ProyectoEF\\ProyectoEF.csproj",
+      "projectUniqueName": "D:\\Programacion\\Platzi\\Curso de Fundamentos de Entity Framework\\ProyectoEF\\ProyectoEF\\ProyectoEF.csproj",
       "projectName": "ProyectoEF",
-      "projectPath": "C:\\Users\\HAR.CALDERON\\Desktop\\proyectos platzi\\ProyectoEF\\ProyectoEF\\ProyectoEF.csproj",
-      "packagesPath": "C:\\Users\\HAR.CALDERON\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HAR.CALDERON\\Desktop\\proyectos platzi\\ProyectoEF\\ProyectoEF\\obj\\",
+      "projectPath": "D:\\Programacion\\Platzi\\Curso de Fundamentos de Entity Framework\\ProyectoEF\\ProyectoEF\\ProyectoEF.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "D:\\Programacion\\Platzi\\Curso de Fundamentos de Entity Framework\\ProyectoEF\\ProyectoEF\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\HAR.CALDERON\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2079,7 +2079,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -24,13 +24,16 @@ app.MapGet("/api/tareas", async ([FromServices] TareasContext dbContext) => {
 
     //return Results.Ok(dbContext.Tareas);
     //return Results.Ok(dbContext.Tareas.Where(p=>p.PrioridadTarea==ProyectoEF.Models.Prioridad.Baja));
-    return Results.Ok(dbContext.Tareas.Include(p => p.Categoria).Where(p=>p.PrioridadTarea==ProyectoEF.Models.Prioridad.Baja));
+    //return Results.Ok(dbContext.Tareas.Include(p => p.Categoria).Where(p=>p.PrioridadTarea==ProyectoEF.Models.Prioridad.Baja));
+    return Results.Ok(dbContext.Tareas.Include(p => p.Categoria));
+
 });
 //Guardar tarea
 app.MapPost("/api/tareas", async ([FromServices] TareasContext dbContext,[FromBody] Tarea tarea) => {
 
     tarea.TareaId = Guid.NewGuid();
     tarea.FechaCreacion = DateTime.Now;
+    
     //los dos metodos siguientes hacen lo mismo
     //await dbContext.AddAsync(tarea);
     await dbContext.Tareas.AddAsync(tarea);
@@ -44,7 +47,7 @@ app.MapPut("/api/tareas/{Id}", async ([FromServices] TareasContext dbContext, [F
     var tareaActual = dbContext.Tareas.Find(Id);
     if (tareaActual != null)
     {
-        tareaActual.Categoria = tarea.Categoria;
+        tareaActual.CategoriaId = tarea.CategoriaId;
         tareaActual.Titulo = tarea.Titulo;
         tareaActual.PrioridadTarea = tarea.PrioridadTarea;
         tareaActual.Descripcion = tarea.Descripcion;
@@ -53,6 +56,21 @@ app.MapPut("/api/tareas/{Id}", async ([FromServices] TareasContext dbContext, [F
     }
      
      
+    return Results.NotFound();//mensaje para el usuario referente a el registro no encontrado
+});
+
+//para eliminar registros
+app.MapDelete("/api/tareas/{Id}", async ([FromServices] TareasContext dbContext, [FromRoute] Guid Id) => {
+
+    var tareaActual = dbContext.Tareas.Find(Id);
+    if (tareaActual != null)
+    {
+         dbContext.Remove(tareaActual);
+        await dbContext.SaveChangesAsync();
+        return Results.Ok();
+    }
+
+
     return Results.NotFound();//mensaje para el usuario referente a el registro no encontrado
 });
 
